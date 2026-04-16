@@ -11,3 +11,4 @@ apps/flutter_app/build/
 apps/flutter_app/.flutter-plugins
 apps/flutter_app/.flutter-plugins-dependencies
 apps/flutter_app/pubspec.lock
+/dist
