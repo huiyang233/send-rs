@@ -1,0 +1,23 @@
+[package]
+name = "sendrs-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "sendrs"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+chrono.workspace = true
+clap.workspace = true
+dirs.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+uuid.workspace = true
+
+sendrs-core = { path = "../core" }
+sendrs-discovery = { path = "../discovery" }
+sendrs-security = { path = "../security" }
+sendrs-transfer = { path = "../transfer" }

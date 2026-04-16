@@ -1,0 +1,20 @@
+[package]
+name = "sendrs-ffi"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+anyhow.workspace = true
+once_cell.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+
+sendrs-chat = { path = "../chat" }
+sendrs-core = { path = "../core" }
+sendrs-discovery = { path = "../discovery" }
+sendrs-security = { path = "../security" }
+sendrs-transfer = { path = "../transfer" }

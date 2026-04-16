@@ -1,0 +1,13 @@
+/target
+**/*.rs.bk
+
+# Local app config
+.claude/
+
+# Flutter
+apps/flutter_app/.dart_tool/
+apps/flutter_app/.packages
+apps/flutter_app/build/
+apps/flutter_app/.flutter-plugins
+apps/flutter_app/.flutter-plugins-dependencies
+apps/flutter_app/pubspec.lock
